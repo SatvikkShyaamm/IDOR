@@ -32,7 +32,7 @@ app.get("/dashboard", (req, res) => {
     res.send(`
       <h2>Welcome, Admin!</h2>
       <p>🎉 Congrats, here is your flag:</p>
-      <code>ACN{URL_PARAMETER_MANIPULATION}</code>
+      <code>ACS{URL_PARAMETER_MANIPULATION}</code>
     `);
   } else {
     res.send(`
@@ -46,3 +46,4 @@ app.get("/dashboard", (req, res) => {
 app.listen(3000, () => {
   console.log("CTF challenge running on http://localhost:3000");
 });
+
